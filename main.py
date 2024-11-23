@@ -118,7 +118,7 @@ def calculate_commitments():
                             del st.session_state.commitment_types[name]
                         else:
                             st.session_state.commitment_types[name] = 'fixed'
-                        st.experimental_rerun()
+                        st.rerun()
 
                     
 
